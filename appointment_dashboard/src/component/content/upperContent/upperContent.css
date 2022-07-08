@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper_content{
+    margin: 20px 200px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 3px gray;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.subcontent{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Left Content */
+.left_content{
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+
+}
+.profile .profile_avatar{
+    border: 3px solid blue;
+    border-radius: 50%;
+}
+.left_content h6{
+    font-size: 16px;
+}
+.profile_button{
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-right: 10px;
+    font-weight: 400;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.profile_button:hover{
+    opacity: 0.8;
+}
+.button_follow{
+    background: rgb(69, 69, 236);
+}
+.button_message{
+    background: rgb(0, 88, 0)
+}
+
+/* Right Content */
+
+.right_content > * {
+    margin-top: 20px
+}
+form label p{
+    margin-top: 20px;
+}
+form label .input_field{
+    padding: 5px;
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.fullname {
+    display:flex;
+    flex-direction: row;
+}
+.fullname .firstname{
+    display: flex;
+    flex-direction: column!important;
+}
+.fullname > input {
+    padding: 5px;
+    margin-right: 10px;
+}
+.button_submit {
+    background: rgb(69, 69, 236);
+}

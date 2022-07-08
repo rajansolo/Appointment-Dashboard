@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.appointment{
+    margin: 100px 300px
+}
+.appointment_upper_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.appointment_upper_content select{
+    width: 200px;
+    padding: 3px;
+    box-shadow: 1px 1px 1px rgb(134, 125, 125);
+}
+.button_add{
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-right: 10px;
+    font-weight: 400;
+    cursor: pointer;
+    background: rgb(69, 69, 236);
+}
+.button_add:hover{
+    opacity: 0.8;
+}
+
+.appointment_lower_content{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.appointment_lower_content input{
+    width: 400px;
+    padding: 5px;
+}
+.edit_appointment{
+    display: flex;
+    margin-bottom: 10px
+}
+.edit_appointment img{
+    background:rgb(182, 179, 179);
+    padding: 5px;
+}
